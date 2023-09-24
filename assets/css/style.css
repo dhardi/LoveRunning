@@ -5,6 +5,16 @@
     box-sizing: border-box;
 }
 
+/*general style*/
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column ;
+/*generic pj style*/
+color: #3e3e3e;
+
+}
+
 /*header*/
 header {
     background-color: lightcoral;
@@ -14,6 +24,8 @@ header {
 main {
 
     background-color: lightblue;
+    /*make main element take up any surplus space to push footer down*/
+    flex: 1 0 auto;
 
 }
 
