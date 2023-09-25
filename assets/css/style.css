@@ -33,7 +33,9 @@ header {
 
 h1 {
     font-family: 'Oswald', sans-serif;
-
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
 }
 
 /*main*/
@@ -51,4 +53,14 @@ footer {
 
 
 
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu>li {
+    margin-bottom: -1em;
 }
