@@ -1,5 +1,6 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
 /*Asterisk wildcard selector to override defaults styles added by the browser*/
 * {
     padding: 0;
@@ -15,14 +16,19 @@ body {
     display: flex;
     flex-direction: column;
     /*generic pj style*/
-    color: #3e3e3e;
-    font-family: 'lato', sans-serif;
+    color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
 
 }
 
 /*header*/
 header {
-    background-color: lightcoral;
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
 }
 
 h1 {
