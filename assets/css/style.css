@@ -49,8 +49,20 @@ main {
 
 /*footer*/
 footer {
-    background-color: orange;
+    background-color: red;
 
+
+
+}
+
+/*nav bar styles with dropdwon toggle*/
+nav {
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 2px 2px #3a3a3a;
+    width: 100%;
+    padding-top: 0 1rem;
+    display: none;
 
 
 }
@@ -62,5 +74,9 @@ footer {
 }
 
 #menu>li {
-    margin-bottom: -1em;
+    margin-bottom: 1em
+}
+
+.active {
+    border-bottom: #3a3a3a;
 }
