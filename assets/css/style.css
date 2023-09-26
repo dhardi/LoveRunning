@@ -104,7 +104,7 @@ nav {
 }
 
 .active {
-    border-bottom: #3a3a3a;
+    border-bottom: 1px solid #3a3a3a;
 }
 
 /*media query:tablets and larger {768px and up}*/
