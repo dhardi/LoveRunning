@@ -30,6 +30,10 @@ h3 {
     color: #252525;
 }
 
+.hidden-heading {
+    display: none;
+}
+
 /*header*/
 header {
     background-color: #ffffff;
@@ -113,6 +117,8 @@ hr {
     background-color: rgba(0, 0, 0, .6);
     padding: 15px;
     text-align: center;
+    /*this will not wrap on screens of less than 400px wide
+    each div will expand to fill the avaiable space on its row */
     flex-basis: 200px;
     flex-grow: 1;
     /* Creates a grid of meetup time divs over the background image */
