@@ -156,6 +156,17 @@ hr {
 
 }
 
+/*Gallery Page*/
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+
+}
+
 /*footer*/
 #social-network {
     text-align: center;
@@ -210,6 +221,19 @@ nav {
 
 .active {
     border-bottom: 1px solid #3a3a3a;
+}
+
+/*media query:larger or landscape {576px and up}*/
+@media screen and (min-width: 576px) {
+
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+
+
+
+
 }
 
 /*media query:tablets and larger {768px and up}*/
@@ -271,6 +295,13 @@ nav {
         align-self: flex-end;
     }
 
+    /*Gallery*/
+    #photos {
+        column-count: 3;
+
+    }
+
+
 }
 
 /*bigs screen size lap tops or higher*/
@@ -278,6 +309,11 @@ nav {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
 
+    }
+
+    /*gallery*/
+    #photos {
+        column-count: 4;
     }
 
 
